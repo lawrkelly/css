@@ -5,11 +5,14 @@
   max-width: 90%;
   width: 90%;
 }
+.vfrc-message {
+  max-width: 90%;
+  width: 90%; 
+}   
 .vfrc-chat {
   max-width: 90%;
   width: 90%; 
 } 
-
 .vfrc-header {
   color: #444;
 } 
