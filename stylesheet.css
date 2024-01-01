@@ -1,9 +1,10 @@
 .vfrc-widget--chat {
     width: 100%;
 }
-.vfrc-system-response--list .vfrc-message--chat {
+.vfrc-system-response .vfrc-message {
     max-width: 60%;
     width: 60%;
+    word-wrap: break-word;
 }
 .vfrc-message {
     max-width: 80%;
