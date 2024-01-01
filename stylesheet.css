@@ -1,15 +1,15 @@
 .vfrc-widget--chat {
-    width: 80%;
+    width: 100%;
     word-wrap: break-word;
 }
 .vfrc-system-response .vfrc-message {
-    max-width: 80%;
-    width: 80%; 
+    max-width: 100%;
+    width: 100%; 
     border-radius: 4px;
     word-wrap: break-word;
 }
 .vfrc-message {
-    max-width: 80%;
-    width: 80%; 
+    max-width: 100%;
+    width: 100%; 
     word-wrap: break-word;
 }   
