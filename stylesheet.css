@@ -2,16 +2,16 @@
     width: 100%;
 }
 .vfrc-system-response--list .vfrc-message--chat {
-  max-width: 100%;
-  width: 100%;
+    max-width: 100%;
+    width: 100%;
 }
 .vfrc-message {
-  max-width: 100%;
-  width: 100%; 
+    max-width: 80%;
+    width: 80%; 
 }   
 .vfrc-chat {
-  max-width: 100%;
-  width: 100%; 
+    max-width: 100%;
+    width: 100%; 
 } 
 .vfrc-header {
     background-color: #3498db; /* Replace with your desired color */
@@ -21,4 +21,9 @@
     background-color: #3498db; /* Replace with your desired color */
     color: #ffffff; /* This is the text color */
 }
+.vfrc-chat--dialog {
+    max-width: 80%;
+    width: 80%;  
+} 
+
 
