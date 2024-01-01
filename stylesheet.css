@@ -8,3 +8,8 @@
     border-radius: 4px;
     word-wrap: break-word;
 }
+.vfrc-message {
+    max-width: 80%;
+    width: 80%; 
+    word-wrap: break-word;
+}   
