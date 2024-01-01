@@ -27,6 +27,7 @@
 .vfrc-chat--dialog {
     max-width: 80%;
     width: 80%;  
+    word-wrap: break-word;
 } 
 .vfrc-input {
     background-color: #f2f2f2;
