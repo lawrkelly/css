@@ -1,5 +1,6 @@
 .vfrc-widget--chat {
     width: 80%;
+    word-wrap: break-word;
 }
 .vfrc-system-response .vfrc-message {
     border-radius: 4px;
@@ -8,10 +9,12 @@
 .vfrc-message {
     max-width: 80%;
     width: 80%; 
+    word-wrap: break-word;
 }   
 .vfrc-chat {
     max-width: 80%;
     width: 80%; 
+    word-wrap: break-word;
 } 
 .vfrc-header {
     background-color: #3498db; /* Replace with your desired color */
@@ -22,8 +25,8 @@
     color: #ffffff; /* This is the text color */
 }
 .vfrc-chat--dialog {
-    max-width: 100%;
-    width: 100%;  
+    max-width: 80%;
+    width: 80%;  
 } 
 .vfrc-input {
     background-color: #f2f2f2;
