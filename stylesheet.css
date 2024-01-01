@@ -2,8 +2,8 @@
     width: 100%;
 }
 .vfrc-system-response--list .vfrc-message--chat {
-    max-width: 100%;
-    width: 100%;
+    max-width: 60%;
+    width: 60%;
 }
 .vfrc-message {
     max-width: 80%;
