@@ -4,6 +4,8 @@
 .vfrc-system-response .vfrc-message {
     max-width: 60%;
     width: 60%;
+    border-radius: 4px;
+    word-wrap: break-word;
 }
 .vfrc-message {
     max-width: 80%;
