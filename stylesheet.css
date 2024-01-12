@@ -7,6 +7,21 @@
     width: 100%; 
     word-wrap: break-word;
 }   
+.vfrc-proactive-message {
+    background-color: red;
+    word-wrap: break-word;
+}
+.vfrc-system-response .vfrc-message {
+    max-width: 100%;
+    width: 100%; 
+    border-radius: 12px;
+    word-wrap: break-word;
+}
+.vfrc-chat {
+    max-width: 100%;
+    width: 100%; 
+    word-wrap: break-word;
+} 
 .vfrc-header {
     background-color: #3498db; /* Replace with your desired color */
     color: #ffffff; /* This is the text color */
