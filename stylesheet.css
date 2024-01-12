@@ -8,7 +8,7 @@
 .vfrc-system-response .vfrc-message {
     max-width: 100%;
     width: 100%; 
-    border-radius: 4px;
+    border-radius: 12px;
     word-wrap: break-word;
 }
 .vfrc-message {
