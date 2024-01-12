@@ -30,8 +30,8 @@
     color: #ffffff; /* This is the text color */
 }
 .vfrc-chat--dialog {
-    max-width: 80%;
-    width: 80%;  
+    max-width: 100%;
+    width: 100%;  
     word-wrap: break-word;
 } 
 .vfrc-input {
