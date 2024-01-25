@@ -1,34 +1,3 @@
-.vfrc-widget--chat {
-    width: 100%;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    max-width: 100%; /* or another appropriate width */
-    overflow-x: auto;
-    background-color: white;
-}
-.vfrc-message {
-    word-wrap: break-word;
-    background-color: white;
-    overflow-wrap: break-word;
-    max-width: 100%; /* or another appropriate width */
-    overflow-x: auto;
-}   
-.vfrc-proactive-message {
-    word-wrap: break-word;
-    background-color: white;
-    overflow-wrap: break-word;
-    max-width: 100%; /* or another appropriate width */
-    overflow-x: auto;
-}
-.vfrc-system-response .vfrc-message {
-    word-wrap: break-word;
-    width: 100%; 
-    background-color: white;
-    border-radius: 12px;
-    overflow-wrap: break-word;
-    max-width: 100%; /* or another appropriate width */
-    overflow-x: auto;
-}
 .vfrc-chat {
     background-color: white; /* #f2f2f2   */
     max-width: 100%;
@@ -36,24 +5,4 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     overflow-x: auto;
-} 
-.vfrc-header {
-    background-color: #3498db; /* Replace with your desired color */
-    color: #ffffff; /* This is the text color */
-}
-.vfrc-card--header {
-    background-color: #3498db; /* Replace with your desired color */
-    color: #ffffff; /* This is the text color */
-}
-.vfrc-chat--dialog {
-    background-color: white; /* #f2f2f2   */
-    max-width: 100%;
-    width: 100%;  
-    background-color: white;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    overflow-x: auto;
-} 
-.vfrc-input {
-    background-color: white; /* #f2f2f2   */
 }
