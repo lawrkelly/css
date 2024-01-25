@@ -1,6 +1,5 @@
 /* General Styles for Text and Background */
-/* .vfrc-widget--chat,  */
-.vfrc-message, .vfrc-message--chat, .vfrc-proactive-message, .vfrc-chat--spacer, .vfrc-message, .vfrc-system-response .vfrc-message, .vfrc-system-response--list, .vfrc-user-response {
+.vfrc-widget--chat, .vfrc-message, .vfrc-message--chat, .vfrc-proactive-message, .vfrc-chat--spacer, .vfrc-message, .vfrc-system-response .vfrc-message, .vfrc-system-response--list, .vfrc-user-response {
     color: black; /* All text in black */
     font-size: 16px; /* Text size set to 16px */
     background-color: white; /* Background color set to white */
