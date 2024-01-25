@@ -1,4 +1,45 @@
-.vfrc-system-response .vfrc-message {
+.vfrc-widget--chat {
     width: 100%;
     word-wrap: break-word;
+}
+.vfrc-message {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%; /* or another appropriate width */
+    overflow-x: auto;
+}   
+.vfrc-proactive-message {
+    word-wrap: break-word;
+    background-color: white;
+}
+.vfrc-system-response .vfrc-message {
+    word-wrap: break-word;
+    max-width: 100%;
+    width: 100%; 
+    border-radius: 12px;
+}
+.vfrc-chat {
+    max-width: 100%;
+    width: 100%; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: auto;
+} 
+.vfrc-header {
+    background-color: #3498db; /* Replace with your desired color */
+    color: #ffffff; /* This is the text color */
+}
+.vfrc-card--header {
+    background-color: #3498db; /* Replace with your desired color */
+    color: #ffffff; /* This is the text color */
+}
+.vfrc-chat--dialog {
+    max-width: 100%;
+    width: 100%;  
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: auto;
+} 
+.vfrc-input {
+    background-color: #f2f2f2;
 }
