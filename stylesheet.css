@@ -19,7 +19,7 @@
     max-width: 100%;
     width: 100%;
     margin: 0 auto; /* Centering the chat body */
-    word-wrap: normal; /* Ensuring word wrap */
+     /* word-wrap: normal; Ensuring word wrap */
 }
 
 /* Input Field - Adjusting width to 80% and styling */
