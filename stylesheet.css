@@ -3,8 +3,8 @@
     color: black; /* All text in black */
     font-size: 16px; /* Text size set to 16px */
     background-color: white; /* Background color set to white */
-    max-width: 100%;
-    width: 100%;
+    max-width: 80%;
+    width: 80%;
     /* word-wrap: normal; Ensuring word wrap */
 }
 
