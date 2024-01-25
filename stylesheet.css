@@ -1,42 +1,28 @@
-.vfrc-widget--chat {
-    width: 100%;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    max-width: 100%; /* or another appropriate width */
-    overflow-x: auto;
-    background-color: white;
-}
-.vfrc-chat {
-    background-color: white; /* #f2f2f2   */
-    max-width: 100%;
-    width: 100%; 
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    overflow-x: auto;
-}
-.vfrc-user-response {
-    background-color: white; /* #f2f2f2   */
-    max-width: 100%;
-    width: 100%; 
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    overflow-x: auto;
+/* General Styles for Text and Background */
+.vfrc-widget--chat, .vfrc-message, .vfrc-system-response, .vfrc-user-response, .vfrc-input {
+    color: black; /* All text in black */
+    font-size: 16px; /* Text size set to 16px */
+    background-color: white; /* Background color set to white */
+    word-wrap: break-word; /* Ensuring word wrap */
 }
 
-/* Targeted styling for just the User messages */
-.vfrc-user-response .vfrc-message {
-    background-color: white; /* #f2f2f2   */
-    max-width: 100%;
-    width: 100%; 
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    overflow-x: auto;
-}
+/* Chat Widget Header */
 .vfrc-header {
-    background-color: #3498db; /* Replace with your desired color */
-    color: #ffffff; /* This is the text color */
+    background-color: blue; /* Header background color */
+    color: white; /* Header text color */
 }
-.vfrc-card--header {
-    background-color: #3498db; /* Replace with your desired color */
-    color: #ffffff; /* This is the text color */
+
+/* Chat Message Body - Adjusting width to 80% */
+.vfrc-chat, .vfrc-chat--dialog, .vfrc-system-response, .vfrc-user-response {
+    max-width: 80%;
+    width: 80%;
+    margin: 0 auto; /* Centering the chat body */
+}
+
+/* Input Field - Adjusting width to 80% and styling */
+.vfrc-input {
+    width: 80%;
+    margin: 0 auto; /* Centering the input field */
+    border: 1px solid #ccc; /* Border for input field */
+    padding: 10px; /* Padding inside the input field */
 }
