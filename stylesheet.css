@@ -6,3 +6,21 @@
     overflow-wrap: break-word;
     overflow-x: auto;
 }
+.vfrc-user-response {
+    background-color: white; /* #f2f2f2   */
+    max-width: 100%;
+    width: 100%; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: auto;
+}
+
+/* Targeted styling for just the User messages */
+.vfrc-user-response .vfrc-message {
+    background-color: white; /* #f2f2f2   */
+    max-width: 100%;
+    width: 100%; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: auto;
+} 
