@@ -22,6 +22,8 @@
     max-width: 100%;
     width: 100%; 
     word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: auto;
 } 
 .vfrc-header {
     background-color: #3498db; /* Replace with your desired color */
@@ -35,6 +37,8 @@
     max-width: 100%;
     width: 100%;  
     word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: auto;
 } 
 .vfrc-input {
     background-color: #f2f2f2;
