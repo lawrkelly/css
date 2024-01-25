@@ -1,5 +1,5 @@
 /* General Styles for Text and Background */
-.vfrc-widget--chat, .vfrc-message, .vfrc-system-response, .vfrc-user-response, .vfrc-input {
+.vfrc-widget--chat, .vfrc-message, .vfrc-message, .vfrc-system-response, .vfrc-user-response, .vfrc-input {
     color: black; /* All text in black */
     font-size: 16px; /* Text size set to 16px */
     background-color: white; /* Background color set to white */
@@ -19,6 +19,7 @@
     max-width: 100%;
     width: 100%;
     margin: 0 auto; /* Centering the chat body */
+    word-wrap: normal; /* Ensuring word wrap */
 }
 
 /* Input Field - Adjusting width to 80% and styling */
