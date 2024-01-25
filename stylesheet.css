@@ -4,10 +4,11 @@
 }
 .vfrc-message {
     word-wrap: break-word;
+    overflow-x: auto;
 }   
 .vfrc-proactive-message {
     word-wrap: break-word;
-    background-color: red;
+    background-color: white;
 }
 .vfrc-system-response .vfrc-message {
     word-wrap: break-word;
