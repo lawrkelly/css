@@ -5,7 +5,7 @@
     background-color: white; /* Background color set to white */
     max-width: 100%;
     width: 100%;
-    word-wrap: normal; /* Ensuring word wrap */
+    /* word-wrap: normal; Ensuring word wrap */
 }
 
 /* Chat Widget Header */
