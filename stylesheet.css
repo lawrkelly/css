@@ -4,6 +4,7 @@
 }
 .vfrc-message {
     word-wrap: break-word;
+    overflow-wrap: break-word;
     max-width: 100%; /* or another appropriate width */
     overflow-x: auto;
 }   
