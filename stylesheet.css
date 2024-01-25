@@ -1,6 +1,9 @@
 .vfrc-widget--chat {
     width: 100%;
     word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%; /* or another appropriate width */
+    overflow-x: auto;
 }
 .vfrc-message {
     word-wrap: break-word;
@@ -11,12 +14,17 @@
 .vfrc-proactive-message {
     word-wrap: break-word;
     background-color: white;
+    overflow-wrap: break-word;
+    max-width: 100%; /* or another appropriate width */
+    overflow-x: auto;
 }
 .vfrc-system-response .vfrc-message {
     word-wrap: break-word;
-    max-width: 100%;
     width: 100%; 
     border-radius: 12px;
+    overflow-wrap: break-word;
+    max-width: 100%; /* or another appropriate width */
+    overflow-x: auto;
 }
 .vfrc-chat {
     max-width: 100%;
