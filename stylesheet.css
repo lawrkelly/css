@@ -27,6 +27,7 @@
     overflow-x: auto;
 }
 .vfrc-chat {
+    background-color: white; /* #f2f2f2   */
     max-width: 100%;
     width: 100%; 
     word-wrap: break-word;
@@ -42,6 +43,7 @@
     color: #ffffff; /* This is the text color */
 }
 .vfrc-chat--dialog {
+    background-color: white; /* #f2f2f2   */
     max-width: 100%;
     width: 100%;  
     word-wrap: break-word;
