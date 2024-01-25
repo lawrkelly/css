@@ -15,7 +15,7 @@
 }
 
 /* Chat Message Body - Adjusting width to 80% */
-.vfrc-chat, .vfrc-chat--dialog, .vfrc-system-response, .vfrc-user-response {
+.vfrc-chat, .vfrc-chat--dialog, .vfrc-system-response, .vfrc-system-response .vfrc-message, .vfrc-user-response {
     max-width: 100%;
     width: 100%;
     margin: 0 auto; /* Centering the chat body */
