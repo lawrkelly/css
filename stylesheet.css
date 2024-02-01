@@ -19,14 +19,14 @@
 .vfrc-chat, .vfrc-chat--dialog, .vfrc-system-response, .vfrc-system-response .vfrc-message, .vfrc-user-response {
     max-width: 100%;
     width: 100%;
-    /* margin: 0 auto; /* Centering the chat body */
+    margin: 0 auto; /* Centering the chat body */
     word-wrap: normal; /* Ensuring word wrap */
 }
 
 /* Input Field - Adjusting width to 80% and styling */
 .vfrc-input {
     width: 100%;
-    /* margin: 0 auto; /* Centering the input field */
+    margin: 0 auto; /* Centering the input field */
     border: 1px solid #ccc; /* Border for input field */
-    /* padding: 10px; /* Padding inside the input field */
+    padding: 10px; /* Padding inside the input field */
 }
